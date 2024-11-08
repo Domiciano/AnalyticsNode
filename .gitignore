@@ -1,0 +1,68 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Entorno virtual específico llamado "virtual"
+virtual/
+
+# Archivos de configuración de entornos de Python
+*.env
+*.env.*
+
+# Logs y otros archivos generados
+*.log
+*.pid
+*.gz
+*.out
+*.err
+*.xml
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Archivos de cache de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de configuración de pytest y cobertura de código
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+
+# Archivos de caché de mypy
+.mypy_cache/
+
+# Docker
+docker-compose.override.yml
+.Dockerfile
+.dockerignore
+
+# Configuración de Jupyter Notebooks
+.ipynb_checkpoints
+
+# Archivos de distribución
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# Archivos temporales de compilación
+*.manifest
+*.spec
+
+# Archivos de lock
+poetry.lock
+Pipfile.lock
+
+# Archivos de configuración de editor
+*.swp
+*~
